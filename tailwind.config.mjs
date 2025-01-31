@@ -11,6 +11,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        // 👇 Add CSS variables
+        sans: ["var(--font-opensans)"],
+        mono: ["var(--font-roboto-mono)"],
+      },
     },
   },
   plugins: [],

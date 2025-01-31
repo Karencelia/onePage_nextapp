@@ -23,12 +23,20 @@ const portfolio = () => {
         <Image
            src="/portfolio-wide.jpg"
            alt="hero img"
-           width={340}
+           width={500}
            height={340}
            className="rounded-sm my-20"
                   />
       </div>
-      <div></div>
+      <div>
+      <Image
+           src="/portfolio-1.jpg"
+           alt="hero img"
+           width={300}
+           height={340}
+           className="rounded-sm my-20"
+                  />
+      </div>
     </div>
   );
 }

@@ -10,7 +10,7 @@ const Services = () => {
             <h3>Services</h3>
           </span>
           <h1 className="text-6xl font-bold ">
-            What I <span className="text-violet-900">Do</span>
+          I <span className="text-violet-900">Do</span> 
           </h1>
         </div>
 
@@ -23,7 +23,7 @@ const Services = () => {
               <i></i>
               <h3 className="text-lg mx-4 font-bold">Design</h3>
             </div>
-            <div>
+            <div className="border-b boreder-[#ff82f3]">
               <p className='p-[10px] w-[380px]'>
                 Lorem ipsum dolor sit amet, consectetur adipisicing
                 elit, sed do eiusmod tempor incididunt ut

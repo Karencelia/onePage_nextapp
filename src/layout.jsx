@@ -14,7 +14,7 @@ const OpenSans = Open_Sans({
 
 export const metadata = {
   title: "Onepage Website",
-  description: "techtemmy",
+  description: "karenCode",
 };
 
 export default function RootLayout({ children }) {

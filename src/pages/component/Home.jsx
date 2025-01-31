@@ -1,11 +1,12 @@
 import Image from "next/image";
 import React from "react";
 
+
 const Home = () => {
   return (
     <div className="px-6">
       <div className="flex justify-center mx-4 my-6">
-        <h1 className="text-8xl font-bold mx-2 my-8">Arthur Jackson</h1>
+        <h1 className="text-8xl font-[96px] mx-2 my-8">Arthur Jackson</h1>
       </div>
       
       <div className="grid grid-cols-3 gap-4 my-8">
@@ -21,7 +22,8 @@ const Home = () => {
           <div className="p-10 ml-14 mt-0">
             <h5 className="mb-3 uppercase">Skills</h5>
             <ul className="flex justify-between">
-              <li>Web Development</li>
+              <FontAwesomeIcon icon={fa-check}></FontAwesomeIcon>
+              <li> Web Development</li>
               <li>UI & UX Design</li>
               <li>Marketing</li>
               <li>SEO</li>
