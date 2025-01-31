@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --font-oufit:'outfit',sans-serif ;
+  --font-open-sans: 'openSans',sans-serif;
+  }
+}
+
+body {
+  color: var(--background);
+  background: var(--foreground);
+  font-family:var(--font-open-sans);
+  } 
+  
+  h1,h2,h3,h4{
+    font-family:var(--font-oufit);
+}
