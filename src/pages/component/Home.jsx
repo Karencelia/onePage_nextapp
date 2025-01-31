@@ -22,7 +22,6 @@ const Home = () => {
           <div className="p-10 ml-14 mt-0">
             <h5 className="mb-3 uppercase">Skills</h5>
             <ul className="flex justify-between">
-              <FontAwesomeIcon icon={fa-check}></FontAwesomeIcon>
               <li> Web Development</li>
               <li>UI & UX Design</li>
               <li>Marketing</li>
