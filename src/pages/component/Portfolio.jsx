@@ -28,9 +28,18 @@ const portfolio = () => {
            className="rounded-sm my-20"
                   />
       </div>
-      <div>
+      <div className='flex'>
       <Image
            src="/portfolio-1.jpg"
+           alt="hero img"
+           width={300}
+           height={340}
+           className="rounded-sm my-20"
+                  />
+      </div>
+      <div className='flex'>
+        <Image
+           src="/portfolio-2.jpg"
            alt="hero img"
            width={300}
            height={340}
